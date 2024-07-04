@@ -1,4 +1,5 @@
 # Transito-y-apadrinamiento-CET
+GRUPO: Rocio, Sofia, Mia, Ariana y Esbenka
 ## 🐱 ***Salvando patitas*** 🐶
 
 🟡Basado en los Objetivos de Desarrollo Sostenible, **identificamos como problemática** que se encuentra muy presente en nuestros barrios  es el hecho del abandono de mascotas, eso genera que refugios de animales y rescatistas se endeuden o no puedan ayudar a otros animalitos. 

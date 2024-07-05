@@ -2,7 +2,8 @@
 GRUPO: Rocio, Sofia, Mia, Ariana y Esbenka
 ## 🐱 ***Salvando patitas*** 🐶
 
-🟡Basado en los Objetivos de Desarrollo Sostenible, **identificamos como problemática** que se encuentra muy presente en nuestros barrios  es el hecho del abandono de mascotas, eso genera que refugios de animales y rescatistas se endeuden o no puedan ayudar a otros animalitos. 
+
+🟡Basado en el Objetivo de Desarrollo Sostenible número 3 "**Salud y Bienestar**", **identificamos como problemática** que se encuentra muy presente en nuestros barrios, el abandono de mascotas, que genera como consecuencia que tanto refugios de animales como rescatistas se endeuden o no puedan ayudar a otros animalitos. 
 
 🟣**Lo elegimos porque** sentimos que es una pequeña forma de aportar algo y visibilizar a esta gran problematica , ademas que amamos a los animales.🩷
 

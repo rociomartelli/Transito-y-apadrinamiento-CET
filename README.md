@@ -1,5 +1,5 @@
 # Transito-y-apadrinamiento-CET
-GRUPO: Rocio, Sofia, Mia, Ariana y Esbenka
+GRUPO: Rocio Martelli y Mia Minelli
 ## 🐱 ***Salvando patitas*** 🐶
 
 

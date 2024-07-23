@@ -1,9 +1,11 @@
 <html>
         <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title> Salvando Patitas  </title>
-             
+            <link rel="stylesheet" href="../css/imagenes.css">
             <link rel="stylesheet" href="../css/colores.css">
             <link rel="stylesheet" href="../css/fuentes.css">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
              </head>
             
              
@@ -14,10 +16,122 @@
                  <strong> Salvando patitas </strong>
             </h1>
             <h2> ¡Bienvenidos!</h2>
-            <p> Por medio de este sitio web, tratamos de dar voz a aquellos que no la tienen, o sea nuestros queridos animalitos y a quienes se encargan de rescatarlos de las calles que necesitan de nosotros</p>
+        
+            <input type="button" id="mi-boton" value="Haz clic para mas info"> <link rel="stylesheet" href="../css/botones.css">
             <br> 
+             
 
 
+            <!-- Acordeon de info -->
+            <div class="accordion" id="accordionExample"> 
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                     <strong>Sobre Nosotros</strong> 
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>¡Hola, Somos Salvando Patitas!</strong> Nuestro objetivo con este sitio web es darle voz a aquellos que no la tienen, o sea nuestros queridos animalitos. Para esto queremos ser el puente entre refugios y posibles futuras familias. 
+                      Acá vas a poder encontrar un listado de refugios situados en La Matanza, Gran Buenos Aires; con sus respectivos datos de contacto (telefono, redes sociales y disponibilidad horaria).
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      <strong>Refugios</strong>
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      En La Matanza se encuentran diferentes refugios de animales que funcionan como centros de rescate, transito, asistencia y posterior adopción de las mascotas. A continuación les dejamos el <strong>listado de refugios</strong>:
+                      
+                        <ul> 
+                           <li> <strong>Perritos De Ciudad Evita </strong> </li>
+                            <p>Instagram: <a href="https://www.instagram.com/perritoscdadevita/?hl=es" target="_blank">@perritoscdadevita</a></p>
+                            <p>Mail: Patrifac@gmail.com</p>
+
+
+
+                           <li> <strong>Huellitas de Catan</strong> </li>
+                           <p>Instagram: <a href="https://www.instagram.com/huellitasdecatan/" target="_blank">@huellitasdecatan</a></p>
+
+
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!--crruseel-->
+                
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="..." class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>First slide label</h5>
+                          <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Second slide label</h5>
+                          <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Third slide label</h5>
+                          <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  
+
+                <!-- Scroll Info -->
+                <div class="row">
+                    <div class="col-4">
+                      <div id="list-example" class="list-group">
+                        <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+                      </div>
+                    </div>
+                    <div class="col-8">
+                      <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                        <h4 id="list-item-1">Item 1</h4>
+                        <p>...</p>
+                        <h4 id="list-item-2">Item 2</h4>
+                        <p>...</p>
+                        <h4 id="list-item-3">Item 3</h4>
+                        <p>...</p>
+                        <h4 id="list-item-4">Item 4</h4>
+                        <p>...</p>
+                      </div>
+                    </div>
+                  </div>
+
+            
             <p> Muchas gracias por leernos ¡Esperamos saber mas de ustedes pronto!</p>
+
+            
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         </body>
 </html>

@@ -1,0 +1,24 @@
+section {
+    padding: 70px 30px;
+    text-align: center;
+}
+.section-1 {
+    background-color: #c7b19c;
+}
+.section-2 {
+    background-color: #f4eee2;
+}
+.section-3 {
+    background-color: #c7b19c
+    ;
+}
+.section-4 {
+    background-color: #f4eee2
+    ;
+}
+
+.section-5 {
+    font-size: 1.5em;
+    background-color: #c7b19c
+    ;
+}

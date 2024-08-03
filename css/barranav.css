@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 30 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar ul li {
+    margin: 0 15px;
+    position: relative;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.navbar .logo img {
+    height: 150px;
+}
+.title {
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 5em;
+  color: #5b483b
+    }
+
+
+
+
+
+
+  .carousel-inner img {
+    height: 600px; 
+    width: auto; 
+    margin: 0 auto; 
+    object-fit: cover; 
+}

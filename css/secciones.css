@@ -4,6 +4,40 @@ section {
 }
 .section-1 {
     background-color: #c7b19c;
+}    
+.section-1-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.section-1-content {
+    display: flex;
+    align-items: flex-start; 
+    gap: 20px; 
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+.section-content {
+    text-align: justify;
+    margin: 0;
+}
+.section-1-text {
+    flex: 1;
+    max-width: 70%; 
+    text-align: left; 
+}
+.section-1-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+.section-1-imagen {
+    flex: 1;
+    max-width: 30%;
+    height: auto;
+    position: relative;
+    left: 45px;
+
 }
 .section-2 {
     background-color: #f4eee2;

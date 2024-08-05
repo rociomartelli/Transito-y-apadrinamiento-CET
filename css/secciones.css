@@ -25,6 +25,8 @@ section {
     flex: 1;
     max-width: 70%; 
     text-align: left; 
+    font-size: 21px;
+    margin-left: -35px;
 }
 .section-1-title {
     font-size: 2em;
@@ -36,7 +38,8 @@ section {
     max-width: 30%;
     height: auto;
     position: relative;
-    left: 45px;
+    left: 50px;
+    top: 35px;
 
 }
 .section-2 {

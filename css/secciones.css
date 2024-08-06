@@ -1,12 +1,12 @@
 section {
     text-align: center;
     margin-bottom: 40px;
-    padding: 80px 0;
+    padding: 90px 0;
     }
 .section-1 {
     background-color: #c7b19c;
-    padding-bottom: 70px;
-    padding-top: 40px;
+    padding-bottom: 70px; /*marca bien los margenes*/
+    padding-top: 40px; /*marca bien los margenes*/
     
 }    
 .section-1-container {
@@ -80,11 +80,11 @@ section {
 }
 .section-2-text {
     flex: 1;
+    flex-grow: 2;
     max-width: 60%; 
     text-align: left; 
     font-size: 20px;
-    padding-right: 20px;
-    padding-left: 10px; }
+    }
 
 
 .section-3 {

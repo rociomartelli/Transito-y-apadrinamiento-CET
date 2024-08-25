@@ -8,8 +8,9 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
-    padding: 30 50px;
+    padding: 30px 50px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
 }
 .navbar ul {
     list-style: none;
@@ -20,30 +21,102 @@ body {
 .navbar ul li {
     margin: 0 15px;
     position: relative;
+
 }
 .navbar ul li a {
+    font-family: "Josefin Sans", sans-serif;
     text-decoration: none;
-    color: #000;
+    color: #5b483b;
     font-weight: bold;
+    display: block;
+    font-size: 1.2em;
+}
+.dropdown-toggle {
+    position: relative;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.2em;
+    color: #5b483b;
+    font-weight: bold;
+    text-decoration: none;
+}
+.dropdown:hover .dropdown-hover-text {
+    display: block;
 }
 .navbar .logo img {
     height: 150px;
+    position: relative;
 }
 .title {
-    font-family: "Josefin Sans", sans-serif;
-  font-optical-sizing: auto;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 5em;
   color: #5b483b
     }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    }   
 
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    margin-top: 10px;
+    padding: 10px 0;
+    z-index: 1000;
+    top: 100%;
+    left: 0; 
+    width: 100%;
+    padding: 15px;
+    }
+.dropdown-menu a {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.2em;
+    color: #5b483b;
+    text-decoration: none;  
+}  
+.dropdown-menu li{
+    padding: 10px 20px;
+}    
+.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+.dropdown-menu li a:hover {
+    background-color: #f8f8f8;
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+        }
+.dropdown-menu .castra-link {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.2em;
+    color: #5b483b;
+    text-decoration: none;
+}
+.nosotros-link {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.2em;
+    color: #5b483b;
+    text-decoration: none;  
+}
+.nosotros-link:hover {
+    color: #c7b19c; 
+    text-decoration: none;}
+    
+.castra-link {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    color: #5b483b;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.navbar .salva-vidas-link:hover, .navbar .castra-link:hover {
+    color: #c7b19c;
+    text-decoration: none;}    
 
-
-
-
-  .carousel-inner img {
+.carousel-inner img {
     height: 600px; 
     width: auto; 
     margin: 0 auto; 

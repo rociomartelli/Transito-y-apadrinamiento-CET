@@ -169,7 +169,21 @@ section {
 .section-5 {
     background-color: #c7b19c;
     padding: 5px 0;
-    height: 35px;
+   
+    height: 600px;
+    max-width: 1300px;
+    margin-left: 255px;
+
+}
+.section-5 .section-title {
+    font-size: 2.5em;
+    margin-top: 35px;
+    margin-bottom: 80px; /* Puedes ajustar este valor según la cantidad de espacio que desees */
+}
+
+.cartascentradas{ 
+    display: flex;
+    justify-content: space-between;
 }
 .paragraph-with-icon {
     display: flex;
@@ -179,12 +193,10 @@ section {
     max-width: 60px;
     margin-bottom: 10px;
     height: 780px;
+    
 }
 
-.section-5-text{
-    font-size: 25px;
-    color: #5c362f;
-}
+
 .section-6 {
     font-size: 1.5em;
     background-color:  #f4eee2

@@ -22,7 +22,22 @@
             
           
         
+            <style>
+              /* Ocultar el botón "CASTRÁ" por defecto */
+              .dropdown-menu {
+                  display: none;
+                  position: absolute;
+                  background-color: white;
+                  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+                  min-width: 160px;
+                  z-index: 1;
+              }
           
+              /* Mostrar el menú desplegable cuando se pasa el cursor sobre "SALVÁ VIDAS" */
+              .dropdown:hover .dropdown-menu {
+                  display: block;
+              }
+          </style>
           </head>
             
              
@@ -37,17 +52,17 @@
             
             <div class="title">SALVANDO PATITAS</div>
             
-              <ul>
-                  <li><a href="#sobre-nosotros" class="categoria">NOSOTROS</a></li>
-                  <li><a href="refugios" class="categoria">REFUGIOS</a></li>
-                  <li>
-                      <a href="#" class="categoria">SALVÁ VIDAS</a>
-                      
+              <ul class="nav-links">
+                  <li><a href="#sobre-nosotros"class="categoria" class="nosotros-link"  >NOSOTROS</a></li>
+                  <li><a href="#" class="categoria">ADOPTÁ</a></li>
+                  <li class="dropdown">
+                      <a href="#" class="categoria" class="dropdown-toggle salva-vidas-link"  >SALVÁ VIDAS</a> 
+                      <div class="dropdown-menu">
+                      <a href="#seccion-castra" class="categoria"class="castra-link castra-link"  >CASTRÁ</a> 
+                      </div>
                   </li>
-                  <li>
-                      <a href="#"class="categoria">PARTICIPÁ</a>
-                     
-                  </li>
+                  <li><a href="#"  class="categoria">PARTICIPÁ</a></li>
+        
                   
                   
                   <li><a href="#"class="categoria">CONTACTO</a></li>
@@ -120,9 +135,9 @@
                           animales, reconociéndolos como nuestros semejantes. Nuestro objetivo con este sitio web es darle voz
                           a aquellos que no la tienen, conectándolos con futuras familias. Queremos ser el puente entre
                           refugios y personas interesadas en adoptar o transitar. Acá vas a poder encontrar un listado de
-                          refugios situados en La Matanza, Gran Buenos Aires, junto con su información de contacto, como
-                          teléfonos, redes sociales y disponibilidad horaria.
-                      </p>
+                          refugios situados en La Matanza, Gran Buenos Aires, junto con su información de contacto y redes sociales. 
+                          Además, sumamos información relevante, con la idea de contribuir a la creación de conciencia sobre la situación 
+                          de los millones de animales en situación de calle.                      </p>
                     </div>
                      <img src="../imagenes/logoconfondo.png" alt="Descripción de la imagen" class="section-1-imagen">
                      </div>
@@ -140,21 +155,37 @@
                     </div>
                 </section>
                 <!-- Sección 3 -->
-                  <section class="section-3">
+                  <section id="seccion-castra" class="section-3">
                     <div class="container">
-                    <h2 class="section-title"><strong> ¿POR QUÉ ES IMPORTANTE CASTRARLOS? </strong></h2>
+                    <img src="../imagenes/gatoscalle.png" alt="Descripción de la imagen" class="section-3-imagen">
+                    <div class="section-3-text">
+                    <div class="section-3-content"> 
+                    <h2 class="section-3-title"><strong> ¿POR QUÉ ES IMPORTANTE CASTRARLOS? </strong></h2>
                     <p class="section-content">Castrar a las mascotas y a los animales de la calle es esencial para controlar la población, mejorar la salud y el comportamiento de los animales, y contribuir a una comunidad más equilibrada y responsable.
+                      La castración es la única opción ética y con resultados concretos para evitar que sigan naciendo animales destinados a sufrir.
                     </p>
+                    <div class="beneficios">
+                    <p><strong>BENEFICIOS DE LA CASTRACIÓN EN MACHOS Y HEMBRAS:</strong></p> </div>
+                    <ul>
+                      <li>Comportamiento mejorado</li>
+                      <li>Reducción del riesgo de enfermedades</li>
+                      <li>Mayor longevidad</li>
+                      <li>Menos estrés</li>
+                    </ul>
                     </div>
                 </section>
                 <!-- Sección 4 -->
-                  <section class="section-4">
+                <section class="section-4">
+                  <img src="../imagenes/vaccine.png" alt="Descripción de la imagen" class="section-4-imagen">
                   <div class="container">
-                  <h2 class="section-title"><strong> ¿POR QUÉ ES IMPORTANTE VACUNARLOS? </strong></h2>
-                  <p class="section-content">Vacunar a las mascotas es fundamental para su salud y bienestar, protege a la comunidad y  asegura una convivencia armoniosa y segura entre los humanos y mascotas.
-                  </p>
+                      <div class="section-4-text">
+                          <h2 class="section-4-title"><strong> ¿POR QUÉ ES IMPORTANTE VACUNARLOS? </strong></h2>
+                          <p class="section-content">
+                              Vacunar a tu mascota no solo protege su salud, sino también la de la comunidad que la rodea. A través de la inmunización, contribuimos a reducir la propagación de enfermedades graves y evitamos brotes epidémicos que podrían poner en peligro tanto a los animales como a los humanos. Además, la vacunación es una parte fundamental del cuidado responsable de las mascotas, asegurando que vivan más tiempo y con una mejor calidad de vida. Al mantener a nuestras mascotas sanas, protegemos también a aquellas que son más vulnerables.
+                          </p>
+                      </div>
                   </div>
-                </section>
+              </section>
                 <!-- Sección 5 -->
                 <section  id= refugios class="section-5">
                   <div class="container">
@@ -201,7 +232,7 @@
                   <div class="container">
                     <div class="paragraph-with-icon">
                       <img src="../imagenes/instagram.png" alt="Instagram Icon">
-                  <p class="section-content">Seguinos en nuestras redes sociales.
+                  <p class="section-5-text"><b>SEGUINOS EN INSTAGRAM</b>
                   </p>
                   </div>
                 </section>
@@ -220,5 +251,5 @@
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/js/bootstrap.min.js"></script>
             <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        </body>
+          </body>
 </html>

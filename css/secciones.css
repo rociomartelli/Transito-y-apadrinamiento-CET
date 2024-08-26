@@ -32,6 +32,7 @@ section {
     text-align: left; 
     font-size: 21px;
     margin-left: -35px;
+    line-height: 1.6;
 }
 .section-1-title {
     font-size: 2em;
@@ -40,19 +41,19 @@ section {
 }
 .section-1-imagen {
     flex: 1;
-    max-width: 30%;
+    max-width: 40%;
     height: auto;
     position: relative;
     left: 50px;
     margin: 0px;
-
 }
 .section-2 {
     background-color: #f4eee2; 
-    margin-bottom: 40px; }
+    height: 600px;
+     }
 
 .section-2-container {
-        max-width: 1000px;
+        max-width: 1300px;
         margin: 0 auto;
         padding: 0 20px;   } 
 
@@ -76,6 +77,7 @@ section {
     height: auto;
     top: 35px;
     border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 
 }
 .section-2-text {
@@ -83,23 +85,105 @@ section {
     flex-grow: 2;
     max-width: 60%; 
     text-align: left; 
-    font-size: 20px;
+    font-size: 21px;
+    line-height: 1.6;
     }
 
 
 .section-3 {
-    background-color: #c7b19c
-    ;
+    background-color: #c7b19c;
+    height: 700px;
+    max-width: 1300px;
+    margin: 0 auto; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+.section-3-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+    text-align:left;
+    width: 550px}
+
+.section-3-text {
+    flex: 1;
+    max-width: 50%; 
+    font-size: 21px;
+    text-align: justify;
+    margin-right: 20px;
+    line-height: 1.6;
+    }
+.section-3-content {
+    flex-direction: row;
+    padding: 40px;
+    }
+.section-3-imagen {
+    width: 50%;
+    height: auto;
+    float: right;
+    margin-top: 110px;
+    margin-left: 10px;
+    position: relative;
+    flex: 1; 
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+.p, li {   
+    font-family: "Josefin Sans", sans-serif;
+}
+.beneficios {
+    font-size: 20px;
+    margin-top: 26px;
+    text-align: left;
 }
 .section-4 {
-    background-color: #f4eee2
-    ;
+    background-color: #f4eee2;
+    justify-content: center; 
+    align-items: center;
+    display: flex;
+    gap: 1px;
+    height: 780px;
+}
+.section-4-imagen {
+    max-width: 33%; 
+    border-radius: 50%; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 100px;
+}
+.section-4-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;}
+
+.section-4-text {
+    text-align: left; 
+    font-size: 21px;
+    max-width: 70%;
+    line-height: 1.6;
+    margin: 0 auto;
 }
 
 .section-5 {
-    font-size: 1.5em;
-    background-color: #c7b19c
-    ;
+    background-color: #c7b19c;
+    padding: 5px 0;
+    height: 35px;
+}
+.paragraph-with-icon {
+    display: flex;
+    flex-direction: column; 
+}
+.paragraph-with-icon img {
+    max-width: 60px;
+    margin-bottom: 10px;
+    height: 780px;
+}
+
+.section-5-text{
+    font-size: 25px;
+    color: #5c362f;
 }
 .section-6 {
     font-size: 1.5em;

@@ -21,6 +21,9 @@ GRUPO: Rocio Martelli y Mia Minelli
  5. Fotos de los animales que necestian transito o apadrinamiento con sus características: edad, medicamentos, tamaño, en que refugio se encuentran etc.
  6. Apartado informativo sobre: el porque castrar, sobre el tránsito, la vacunacion, centros de zoonosis etc.
  7. Dividir por zonas en la misma pagina.
+
+
+ **En JavaScript  queremos** que en la sección del navegador cambie el color o se agrande un poco la letra al pasar el mouse.
  
  
 

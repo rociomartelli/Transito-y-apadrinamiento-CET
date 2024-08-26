@@ -101,3 +101,20 @@ section {
     background-color: #c7b19c
     ;
 }
+.section-6 {
+    font-size: 1.5em;
+    background-color:  #f4eee2
+
+    ;
+}
+
+
+
+
+.cartascentradas{ 
+    display: flex;
+    justify-content: space-around;
+}
+
+
+

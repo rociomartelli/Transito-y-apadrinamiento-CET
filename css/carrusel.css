@@ -1,7 +1,12 @@
 .carousel-item {
     position: relative;
 }
-
+#ajusteImagen img {
+    width: 100%; /* Cambia el tamaño según tus necesidades */
+    height: 850px;
+    margin: 0 auto;
+  }
+  
 .carousel-inner .galgo {
     max-width: 100%; /* me queda gigante decir a la profe*/
     height: auto;

@@ -5,8 +5,8 @@ section {
     }
 .section-1 {
     background-color: #c7b19c;
-    padding-bottom: 70px; /*marca bien los margenes*/
-    padding-top: 40px; /*marca bien los margenes*/
+    padding-bottom: 70px; 
+    padding-top: 40px; 
     
 }    
 .section-1-container {
@@ -178,7 +178,7 @@ section {
 .section-5 .section-title {
     font-size: 2.5em;
     margin-top: 35px;
-    margin-bottom: 80px; /* Puedes ajustar este valor según la cantidad de espacio que desees */
+    margin-bottom: 80px;
 }
 
 .cartascentradas{ 
@@ -194,7 +194,7 @@ section {
     margin-bottom: 10px;
     height: 780px;
     
-}
+}/* Instagram de la pag*/
 
 
 .section-6 {
@@ -207,10 +207,22 @@ section {
 
 
 
-.cartascentradas{ 
-    display: flex;
-    justify-content: space-around;
+
+
+
+.RefugiosImg {
+    flex-basis: 13rem; /* Asegura que la imagen ocupe el ancho completo del contenedor */
+    height: 250px; /* Mantén la proporción de la imagen */
+    filter: grayscale(100%); /* Convertir imágenes a blanco y negro */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: filter 0.3s ease, transform 0.3s ease; /* Transición suave en hover */
 }
 
 
 
+.card {
+    width: 45rem; /* Aumenta el ancho de la carta */
+    margin: 15px; /* Añade un poco de margen alrededor de cada carta */
+    padding: 10px; /* Añade padding dentro de la carta */
+    border-radius: 10px; /* Mantén los bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); }

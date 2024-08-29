@@ -2,7 +2,7 @@
     position: relative;
 }
 #ajusteImagen img {
-    width: 100%; /* Cambia el tamaño según tus necesidades */
+    width: 100%; 
     height: 850px;
     margin: 0 auto;
   }
@@ -23,7 +23,7 @@
 .carousel-caption {
     z-index: 2;
 }
-/*quiero cambiar el grosor de las flechas y su color */
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     

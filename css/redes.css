@@ -4,11 +4,11 @@
 }
 
 .paragraph-with-icon img {
-    margin-right: 8px; /* Ajusta el espacio entre el icono y el texto */
-    width: 35px;       /* Tamaño del icono */
-    height: 35px;      /* Tamaño del icono */
+    margin-right: 8px; 
+    width: 35px;      
+    height: 35px;    
 }
 
 .paragraph-with-icon p {
-    margin: 0; /* Elimina el margen del párrafo para asegurar la alineación */
+    margin: 0; 
 }

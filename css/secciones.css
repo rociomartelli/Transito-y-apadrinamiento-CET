@@ -211,18 +211,18 @@ section {
 
 
 .RefugiosImg {
-    flex-basis: 13rem; /* Asegura que la imagen ocupe el ancho completo del contenedor */
-    height: 250px; /* Mantén la proporción de la imagen */
-    filter: grayscale(100%); /* Convertir imágenes a blanco y negro */
+    flex-basis: 13rem; 
+    height: 250px; 
+    filter: grayscale(100%); 
     border-radius: 5px; /* Bordes redondeados */
-    transition: filter 0.3s ease, transform 0.3s ease; /* Transición suave en hover */
+    transition: filter 0.3s ease, transform 0.3s ease; 
 }
 
 
 
 .card {
-    width: 45rem; /* Aumenta el ancho de la carta */
-    margin: 15px; /* Añade un poco de margen alrededor de cada carta */
-    padding: 10px; /* Añade padding dentro de la carta */
-    border-radius: 10px; /* Mantén los bordes redondeados */
+    width: 45rem; 
+    margin: 15px;
+    padding: 10px; 
+    border-radius: 10px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); }

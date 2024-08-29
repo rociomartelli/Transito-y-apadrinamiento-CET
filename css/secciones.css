@@ -226,7 +226,7 @@ section {
 
 .card {
     width: 45rem; /* Aumenta el ancho de la carta */
-    margin: 15px; /* Añade un poco de margen alrededor de cada carta */
-    padding: 10px; /* Añade padding dentro de la carta */
+    margin: 20px; /* Añade un poco de margen alrededor de cada carta */
+    padding: 5px; /* Añade padding dentro de la carta */
     border-radius: 10px; /* Mantén los bordes redondeados */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); }

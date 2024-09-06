@@ -171,17 +171,17 @@ section {
 
 .section-5 {
     background-color: #c7b19c;
-    padding: 5px 0;
-   
-    height: 600px;
+    padding: 5px 0; 
+    height: 700px;
     max-width: 1300px;
-    margin-left: 255px;
+    margin-left: 290px;
 
 }
 .section-5 .section-title {
     font-size: 2.5em;
     margin-top: 35px;
     margin-bottom: 80px;
+    margin-right: 100px;
 }
 
 .cartascentradas{ 
@@ -226,7 +226,8 @@ section {
 
 .card {
     width: 45rem; /* Aumenta el ancho de la carta */
-    margin: 20px; /* Añade un poco de margen alrededor de cada carta */
-    padding: 5px; /* Añade padding dentro de la carta */
+    margin: 25px; /* Añade un poco de margen alrededor de cada carta */
+    padding: 4px; /* Añade padding dentro de la carta */
     border-radius: 10px; /* Mantén los bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); }
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateX(-60px); }

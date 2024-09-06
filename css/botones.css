@@ -1,5 +1,5 @@
 .RefugioBoton {
-    background-color: #5b483b; /* Color de fondo del botón */
+    background: #5b483b; /* Color de fondo del botón */
     color: white; /* Color del texto */
     padding: 10px 20px; /* Relleno del botón */
     text-align: center; /* Alinear texto en el centro */

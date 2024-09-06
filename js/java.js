@@ -27,12 +27,12 @@ document.querySelectorAll('.RefugioBoton').forEach(function(button) {
 // Restaurar color y hacer zoom en las imágenes al pasar el mouse
 document.querySelectorAll('.RefugiosImg').forEach(function(img) {
     img.addEventListener('mouseover', function() {
-        img.style.filter = 'grayscale(0%)'; // Restaurar color al pasar el mouse
+        img.style.filter = 'grayscale(100%)'; // Restaurar color al pasar el mouse
         img.style.transform = 'scale(1.05)'; // Hacer un pequeño zoom en la imagen
     });
 
     img.addEventListener('mouseout', function() {
-        img.style.filter = 'grayscale(100%)'; // Aplicar escala de grises
+        img.style.filter = 'grayscale(0%)'; // Aplicar escala de grises
         img.style.transform = 'scale(1)'; // Restaurar tamaño original #5b483b
     });
 });
